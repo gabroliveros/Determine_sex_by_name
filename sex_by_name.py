@@ -107,9 +107,7 @@ def determinar_sexo(nombre1, nombre2, ruta_hombres, ruta_mujeres):
 masc = 'nombres_masculinos.txt'
 fem = 'nombres_femeninos.txt'
 #------------------------------
-hombres = pd.read_csv(masc, header=None, sep=' ', dtype=str).stack().dropna().str.lower()#.map(unidecode)
-mujeres = pd.read_csv(fem, header=None, sep=' ', dtype=str).stack().dropna().str.lower()#
-len(hombres) + len(mujeres)
+
 # Pasar los nombres normalizados (sin acentos o signos)
 sexo = determinar_sexo('maria', 'jose', masc, fem)
 print(sexo)
