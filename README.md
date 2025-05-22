@@ -11,7 +11,7 @@ The result:
 	{'sex': 'female', 'probability': 75.0}
 
 
-If you find it useful, leave me a star ;)
+If you find it useful, leave me a star ⭐
 
 
 # Determinar el sexo mediante el nombre
@@ -27,4 +27,4 @@ El resultado:
 		
 	{'sexo': 'femenino', 'probabilidad': 75.0}
 
-Si te resulta de utilidad déjame una estrella ;)
+Si te resulta de utilidad déjame una estrella ⭐
